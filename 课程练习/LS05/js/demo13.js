@@ -10,10 +10,10 @@ console.log(3==new String(3));
 console.log(3===new String(3));
 
 //下例中有几个是false？（A:0个, B:1个, C:2个, D:3个），运行一下看看
-var obj1 = new String("xyz");//f
-var obj2 = new String("xyz");//f
-console.log("xyz"===obj1);//f
-console.log(obj1 == obj2);//
+var obj1 = new String("xyz");
+var obj2 = new String("xyz");
+console.log("xyz"===obj1);
+console.log(obj1 == obj2);
 console.log(obj1 === obj2);
 console.log(obj1 == new String("xyz"));
 

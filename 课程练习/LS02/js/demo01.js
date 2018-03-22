@@ -2,8 +2,8 @@
  * Created by qile on 2017/8/14.
  */
 //类型检测 typeof 一般用于值类型检测
-console.log(typeof 123);//num
-console.log(typeof true);//
+console.log(typeof 123);
+console.log(typeof true);
 console.log(typeof "abc");
 console.log(typeof null);
 console.log(typeof undefined);
